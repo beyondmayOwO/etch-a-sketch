@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Roboto&display=swap');
+/*font-family: 'Nanum Pen Script', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color:darkseagreen;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.new-sketch-pad {
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sketch-pad {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 460px 0 460px;
+}
+
+.grid-item {
+  background-color: ghostwhite;
+  width: 20px;
+  height: 20px;
+  border: solid 0.1px grey;
+}
